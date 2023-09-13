@@ -28,11 +28,16 @@ Helm is a package manager for Kubernetes that makes it easy to define, install, 
 ### Installing Helm
 
 Before you can start using Helm, you need to install it on your local machine.
+
 **On macOS:**
+
+```brew install helm```
 
 ### Initializing Helm
 
 Once Helm is installed, you should initialize it to set up the necessary components.
+
+```helm init```
 
 ## Basic Helm Commands
 
@@ -40,9 +45,13 @@ Once Helm is installed, you should initialize it to set up the necessary compone
 
 To install a Helm chart onto your Kubernetes cluster, use the `helm install` command. Here's an example of installing a WordPress chart:
 
+```helm install my-wordpress stable/wordpress```
+
 ### Chart Upgrades
 
 Helm allows you to easily upgrade your deployed charts as new versions become available. Here's how to upgrade a chart:
+
+```helm upgrade my-wordpress stable/wordpress```
 
 ### Chart Removal
 
