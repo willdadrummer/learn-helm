@@ -4,20 +4,20 @@ Welcome to the Helm Learning Repository! This repository is designed to help you
 
 ## Table of Contents
 
-1. **What is Helm?**
-2. **Getting Started**
-   - Installing Helm
-   - Initializing Helm
-3. **Basic Helm Commands**
-   - Chart Installation
-   - Chart Upgrades
-   - Chart Removal
-4. **Creating Your Own Helm Charts**
-5. **Advanced Helm Usage**
-   - Helm Repositories
-   - Helm Templates
-6. **Contributing**
-7. **License**
+1. [What is Helm?](#what-is-helm)
+2. [Getting Started](#getting-started)
+   - [Installing Helm](#installing-helm)
+   - [Initializing Helm](#initializing-helm)
+3. [Basic Helm Commands](#basic-helm-commands)
+   - [Chart Installation](#chart-installation)
+   - [Chart Upgrades](#chart-upgrades)
+   - [Chart Removal](#chart-removal)
+4. [Creating Your Own Helm Charts](#creating-your-own-helm-charts)
+5. [Advanced Helm Usage](#advanced-helm-usage)
+   - [Helm Repositories](#helm-repositories)
+   - [Helm Templates](#helm-templates)
+6. [Contributing](#contributing)
+7. [License](#license)
 
 ## What is Helm?
 
@@ -28,6 +28,7 @@ Helm is a package manager for Kubernetes that makes it easy to define, install, 
 ### Installing Helm
 
 Before you can start using Helm, you need to install it on your local machine.
+**On macOS:**
 
 ### Initializing Helm
 
