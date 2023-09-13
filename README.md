@@ -57,6 +57,8 @@ Helm allows you to easily upgrade your deployed charts as new versions become av
 
 When you're done with a Helm chart, you can remove it from your cluster using the `helm uninstall` command.
 
+```helm uninstall my-wordpress```
+
 ## Creating Your Own Helm Charts
 
 Creating custom Helm charts is a powerful way to package and deploy your Kubernetes applications. Stay tuned for detailed tutorials on creating your own charts!
@@ -67,9 +69,22 @@ Creating custom Helm charts is a powerful way to package and deploy your Kuberne
 
 Helm allows you to manage repositories of pre-packaged charts. You can add, update, and search for charts from these repositories. Here's how to work with Helm repositories:
 
+```helm repo add stable https://charts.helm.sh/stable```
+
+### Updating Helm Repositories 
+
+```helm repo update```
+
+### Searching for Charts
+
+```helm search repo stable/wordpress```
+
+
 ### Helm Templates
 
 Helm templates are a powerful feature that allows you to customize your charts before deployment. Learn how to use Helm templates effectively:
+
+```helm template my-wordpress stable/wordpress```
 
 ## Contributing
 
