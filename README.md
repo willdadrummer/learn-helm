@@ -1,5 +1,7 @@
 # Helm Learning Repository
 
+![image](https://github.com/willdadrummer/learn-helm/assets/52965466/584148cc-dc01-4e29-99b5-ce62e0439e09)
+
 Welcome to the Helm Learning Repository! This repository is designed to help you learn how to use Helm, a package manager for Kubernetes applications. Whether you're a beginner or an experienced Kubernetes user, this guide will walk you through the basics of Helm and help you become proficient in managing your Kubernetes applications.
 
 ## Table of Contents
