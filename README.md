@@ -33,12 +33,6 @@ Before you can start using Helm, you need to install it on your local machine.
 
 ```brew install helm```
 
-### Initializing Helm
-
-Once Helm is installed, you should initialize it to set up the necessary components.
-
-```helm init```
-
 ## Basic Helm Commands
 
 ### Chart Installation
