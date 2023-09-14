@@ -30,9 +30,22 @@ Helm is a package manager for Kubernetes that makes it easy to define, install, 
 
 Before you can start using Helm, you need to install it on your local machine.
 
-**On macOS:**
+Binary downloads of the Helm client can be found on [the Releases page](https://github.com/helm/helm/releases/latest).
 
-```brew install helm```
+Unpack the `helm` binary and add it to your PATH and you are good to go!
+
+If you want to use a package manager:
+
+- [Homebrew](https://brew.sh/) users can use `brew install helm`.
+- [Chocolatey](https://chocolatey.org/) users can use `choco install kubernetes-helm`.
+- [Scoop](https://scoop.sh/) users can use `scoop install helm`.
+- [GoFish](https://gofi.sh/) users can use `gofish install helm`.
+- [Snapcraft](https://snapcraft.io/) users can use `snap install helm --classic`
+
+To rapidly get Helm up and running, start with the [Quick Start Guide](https://helm.sh/docs/intro/quickstart/).
+
+See the [installation guide](https://helm.sh/docs/intro/install/) for more options,
+including installing pre-releases.
 
 ## Basic Helm Commands
 
