@@ -7,7 +7,6 @@ Welcome to the Helm Learning Repository! This repository is designed to help you
 1. [What is Helm?](#what-is-helm)
 2. [Getting Started](#getting-started)
    - [Installing Helm](#installing-helm)
-   - [Initializing Helm](#initializing-helm)
 3. [Basic Helm Commands](#basic-helm-commands)
    - [Chart Installation](#chart-installation)
    - [Chart Upgrades](#chart-upgrades)
